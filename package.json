@@ -1,0 +1,31 @@
+{
+  "name": "express-supertest-exercise",
+  "version": "1.0.0",
+  "description": "Exercise for using SuperTest framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --maxWorkers=1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wningram/express-supertest-exercise.git"
+  },
+  "keywords": [
+    "Exercise",
+    "Supertest"
+  ],
+  "author": "Nick Ingram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wningram/express-supertest-exercise/issues"
+  },
+  "homepage": "https://github.com/wningram/express-supertest-exercise#readme",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
